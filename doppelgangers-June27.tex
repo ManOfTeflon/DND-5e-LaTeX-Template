@@ -1,0 +1,160 @@
+\documentclass[10pt,twoside,twocolumn]{article}
+\usepackage[bg-letter]{dnd} % Options: bg-a4, bg-letter, bg-full, bg-print.
+\usepackage[ngerman]{babel} % Trennungsregeln und autom. Überschriften in n. dt. RS
+\usepackage[utf8]{inputenc}
+
+% Start document
+\begin{document}
+\fontfamily{ppl}\selectfont % Set text font
+
+% Your content goes here
+
+% \section{title}
+% \subsection{title}
+% \subsubsection{title}
+
+% \begin{commentbox}{title}
+% \end{commentbox}
+
+% \begin{quotebox}
+% \end{quotebox}
+
+% \begin{paperbox}{title}
+% \end{paperbox}
+
+% \newpage % Acts as columbreak because of twocolumn option; for pagebreak use \clearpage
+
+% \begin{dndtable}
+%       \textbf{Table head}  & \textbf{Table head} \\
+%       Some value & Some value \\
+%       Some value & Some value
+% \end{dndtable}
+
+\section{Gerburgh}
+The players have arrived at the gates of Gerburgh, a small hamlet afflicted by a mysterious madness.
+
+\begin{paperbox}{The Town}
+    As the players approach the entrance to the town, the first thing they notice is a small figure suspended on a gruesome spike.  It's not uncommon in this area for examples to be made of criminals in this manner, but something about the scene feels unsettling to the characters.  Upon closer inspection, they realize that this is no criminal; it is the freshly deceased body of a young girl of no more than five years!
+
+    The town itself is quite typical for the region.  A single archway leans over a wide dirt road bisecting the town.  The road is lined with a tavern, some store fronts and varied street vendors and leads to a small but prominent square which is little more than a dirt patch with a crier's stand.  At the end of the town, the players can see a modest chapel framed by the town entrance.  Extending in either direction from the main street are a motley collection of homes connected by paths worn into the feeble grass.
+
+    Within the town, citizens appear to be going about their business with no attention given to the little girl or her horrified observers.  Even still, they appear to be acting erratically; The residents can often be seen muttering to themselves and eyeing each other suspiciously.  They seem resistant to engaging in conversation.
+\end{paperbox}
+
+\subsection{Actions within Gerburgh}
+    The players are free to investigate the town however they wish here, but certain actions will trigger specific responses from the townspeople.
+
+\subsubsection{Asking About the Girl}
+Asking anyone in town about the girl will yield the same response:
+\begin{quotebox}
+    It's a damned shame, but little Daria was possessed by a demon!  She was violent and offensive, and there was nothing our poor pastor could do to save her.  The best we can hope is that her spirit can ward away any more evil from entering our town, but I don't think it's worked...
+\end{quotebox}
+After saying the last bit, the citizen will suddenly look at the characters worriedly and exit the conversation.
+
+\newpage
+
+\subsubsection{Entering the Tavern}
+\begin{paperbox}{The Tavern}
+    The tavern's interior is very much what you would expect from a hamlet of this size: dark and dingy, but also homely.  It's patrons are clearly those outcast by the religious populace of Gerburgh.  They eye you suspiciously.  Upon entering, the bartender greets you:
+\end{paperbox}
+\begin{quotebox}
+    Ah strangers!  Welcome to The Broken Glass!  Our town's residents may not be the most welcoming to outsiders, but here at the Broken Glass we accept coins from people of all walks of life.  Can I help you with a drink?  Or maybe some food?
+\end{quotebox}
+
+Asking the bartender if any other strangers have been to town will prompt the following response:
+\begin{quotebox}
+    We get occasional travellers here from time to time.  Last one came through let me think... Must've been about a fortnight ago.  Quiet, unobtrusive man.  Didn't eat or drink anything, just sat in the corner and used the outhouse.
+\end{quotebox}
+
+If the players remain in the tavern for any extended period of time, a fight eventually breaks out among the other patrons.  They appear to be attacking each other for very little reason, and doing so quite savagely.
+
+\subsubsection{Attempting to Enter the Chapel}
+If the players attempt to enter the chapel, they are stopped by a young boy:
+\begin{quotebox}
+    I'm sorry, but no one is allowed into the chapel on account of the evil spirits inside.  I'd say you should leave here while you're still clean.
+\end{quotebox}
+
+\newpage
+
+\subsubsection{Entering the Market}
+\begin{paperbox}{The Market}
+    The town's market exists in a large, open building midway down the road.  Many merchants and vendors have stands selling produce, meats and other goods.  Compared to the quiet, suspicious citizens outside, the people in the market appear surprisingly confident going about their commerce.
+\end{paperbox}
+If the players approach a vendor, he mentions the strange disappearances of cattle outside the town.
+\begin{quotebox}
+    Hello!  Could I interest you in some bread?  We have no shortage here.  The demons don't seem to like wheat very much!  What demons?  Oh my, you are from out of town, aren't you.  A lot of strange things been going on lately.  Cattle dying, cattle disappearing.  I've even heard rumors of some people vanishing.  My milk supplier said he saw spiked demons running into the woods after he ran to investigate his stock lowwing angrily.  One cow was hurt pretty badly, but he hasn't lost any business thank Pelor.
+\end{quotebox}
+
+\subsubsection{Going to the Outskirts of Town}
+If the players go to the outskirts of town to investigate the strange disappearances, any NPC they encounter will tell them:
+\begin{quotebox}
+    It's not just spirits we have to be afraid of, you can bet your business on that.  There are demons in these woods, and they haven't always been there.  Something is going on and I just don't know what to do about it.
+\end{quotebox}
+
+If the players investigate the cattle, they discover that both the dead cattle left behind and the live cattle are covered in scratches all over their bodies.  Pressing into the woods reveals nothing unless the players can succeed on a Perception (DC 17) check.  Succeeding on an Insight (DC 10) check gives the players an eerie feeling of being watched.
+
+\newpage
+
+\subsection{The Demons Escape!}
+After some amount of time (at the DM's discretion), the doors to the chapel burst open and several spiked demons escape into the street.  Shouting comes from within and the door is quickly shut by a large looking preacher, but three demons are terrorizing the citizens in the town square.  The people are shocked and terrified as one demon claws the small boy to death on the steps of the church.
+
+\begin{monsterbox}{Barbed Devil}
+    \textit{Medium fiend (devil), lawful evil}\\
+    \hline
+    \basics[%
+    armorclass = 15,
+    hitpoints  = 110 (13d8 + 52),
+    speed      = 30 ft.
+    ]
+    \hline
+    \stats[
+    STR = 16 (+3),
+    DEX = 17 (+3),
+    CON = 18 (+4),
+    INT = 12 (+1),
+    WIS = 14 (+2),
+    CHA = 14 (+2),
+    ]
+    \hline
+    \details[
+        savingthrows = {Str +6, Con +7, Wis +5, Cha +5},
+        skills = {Deception +5, Insight +5, Perception +8},
+        damageresistances = {cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered},
+        damageimmunities = {fire, poison},
+        conditionimmunities = {poisoned},
+        senses = {darkvision 120 ft., passive Perception 18},
+        languages = {Infernal, telepathy},
+        challenge = {5 (1800 XP)},
+    ]
+    \hline \\[1mm]
+    \begin{monsteraction}[Barbed Hide]
+        At the start of each of its turns, the barbed devil deals 5 (1d10) piercing damage to any creature grappling it.
+    \end{monsteraction}
+
+    \begin{monsteraction}[Devil's Sight]
+        Magical darkness doesn't impede the devil's darkvision.
+    \end{monsteraction}
+
+    \begin{monsteraction}[Magic Resistance]
+        The devil has advantage on saving throws against spells and other magical effects.
+    \end{monsteraction}
+    \monstersection{Actions}
+    \begin{monsteraction}[Multiattack]
+        The devil makes three melee attacks: one with its tail and two with its claws.  Alternatively, it can use Hurl Flame twice.
+    \end{monsteraction}
+
+    \begin{monsteraction}[Claw]
+        \textit{Melee Weapon Attack}: +6 to hit, reach 5 ft., one target.  \textit{Hit}: 6 (1d6 + 3) piercing damage.
+    \end{monsteraction}
+
+    \begin{monsteraction}[Tail]
+        \textit{Melee Weapon Attack}: +6 to hit, reach 5 ft., one target.  \textit{Hit}: 10 (2d6 + 3) piercing damage.
+    \end{monsteraction}
+
+    \begin{monsteraction}[Hurl Flame]
+        \textit{Ranged Spell Attack}: +5 to hit, range 150 ft., one target.  \textit{Hit}: 10 (3d6) fire damage.  If the target is a flammable ovject that isn't being worn or carried, it also catches fire.
+    \end{monsteraction}
+\end{monsterbox}
+
+% End document
+\end{document}
